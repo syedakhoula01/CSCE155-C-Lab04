@@ -23,5 +23,20 @@ int main(int argc, char **argv) {
 
   //TODO: place your code here
 
+   else
+   {
+    printf("\n\n--");
+
+    int v;
+    int x=1;
+    int y=1;
+
+    for(int p=1; p<=n ;p++)
+    {
+      printf("%d",p);
+    }
+    printf("\n\n");
+    
+   }
   return 0;
 }
