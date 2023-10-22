@@ -30,6 +30,18 @@ int main(int argc, char **argv) {
   printf("Guess-A-Number Game!\n");
   printf("Enter a number between 1 and %d\n", n);
 
+  while(1)
+  {
+    printf("enter your guess :  ");
+    scanf("%d", &guess);
+    numGuesses++;
+
+
+
+
+    
+  }
+
   //TODO: place your code here
 
   printf("Congratulations, you found it!  Number of guesses: %d\n", numGuesses);
