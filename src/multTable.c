@@ -28,6 +28,7 @@ int main(int argc, char **argv) {
     printf("\n\n--");
 
     int v;
+    int j;
     int x=1;
     int y=1;
 
@@ -36,7 +37,21 @@ int main(int argc, char **argv) {
       printf("%d",p);
     }
     printf("\n\n");
-    
+
+    for(int i=1; i<=n; j++)
+    {
+      printf("%d ",x);
+      x++;
+
+      for(int j=1;j<=n;j++)
+      {
+        v=i*j;
+       printf("%d",v);
+      }
+      printf("\n\n");
+    }
+
    }
+
   return 0;
 }
