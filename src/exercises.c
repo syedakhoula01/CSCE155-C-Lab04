@@ -80,6 +80,15 @@ int main(int argc, char **argv) {
 
   //6. Compute the summation of squares of numbers 1 thru n
   //   and print the result; example: 1^2 + 2^2 + 3^2 + 4^2 + 5^2 = 55
+  int c;
+  int d=0;
+  int sq;
+  for(c=1 ; c<=n ;c++)
+  {
+   sq = (c*c);
+   d=sq+d;
+  }
+  printf("\nsummation of squares of numbers from 1 thru %d" ,n , d);
 
   //7. Compute the summation of even numbers 1 thru n and print
   //   the result; example (n=5): 2 + 4 = 6
