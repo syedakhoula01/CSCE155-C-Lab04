@@ -109,7 +109,30 @@ int main(int argc, char **argv) {
   //   If the integer is divisible by 11 print "Bar" instead.  If
   //   the integer is divisible by both 7 and 11, print "FooBar"
   //   instead.
-  
+
+  int n;
+  printf("enter the value of n: ");
+  scanf("%d", &n);
+
+  for(int i=1 ; i<=n ; i++)
+  {
+    if(i % 7==0 && i%11==0)
+    {
+      printf("fooBar\n");
+    }
+    else if(i%7==0)
+    {
+      printf("foo \n");
+    }
+    else if(i%11==0)
+    {
+      printf("bar\n");
+    }
+    else
+    {
+      printf("%d\n", i);
+    }
+  }
 
   return 0;
 }
