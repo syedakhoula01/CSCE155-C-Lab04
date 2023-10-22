@@ -92,6 +92,16 @@ int main(int argc, char **argv) {
 
   //7. Compute the summation of even numbers 1 thru n and print
   //   the result; example (n=5): 2 + 4 = 6
+  int f=0;
+  for(int p=1; p<=n; p++)
+  {
+    if(p%2==0)
+    {
+      f=f+p;
+    }
+  }
+   printf("summation of even numbers from 1 thru %d =%d" ,n , f);
+
 
   //8. Write a solution to the following variation of the FizzBuzz
   //   problem.  Print out integers 1 thru n, one to a line, except
@@ -99,6 +109,7 @@ int main(int argc, char **argv) {
   //   If the integer is divisible by 11 print "Bar" instead.  If
   //   the integer is divisible by both 7 and 11, print "FooBar"
   //   instead.
+  
 
   return 0;
 }
