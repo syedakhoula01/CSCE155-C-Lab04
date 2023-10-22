@@ -62,6 +62,13 @@ int main(int argc, char **argv) {
   //4. Print squares of numbers 1 thru n separated by a comma
   //   except for the last one; example: 1, 4, 9, 16, 25
 
+     for(int a=1 ; a<=n ; a++)
+     {
+      printf("%d ," , (a*a));
+     }
+
+     printf("\n");
+
   //5. Compute the summation of numbers 1 thru n and print
   //   the result; example: 1 + 2 + 3 + 4 + 5 = 15
 
